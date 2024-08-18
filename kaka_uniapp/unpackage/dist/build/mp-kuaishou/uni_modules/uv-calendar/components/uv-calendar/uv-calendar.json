@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-popup": "/uni_modules/uv-popup/components/uv-popup/uv-popup",
+    "uv-button": "/uni_modules/uv-button/components/uv-button/uv-button",
+    "uv-header": "/uni_modules/uv-calendar/components/uv-calendar/header",
+    "uv-month": "/uni_modules/uv-calendar/components/uv-calendar/month"
+  }
+}

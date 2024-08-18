@@ -1,0 +1,137 @@
+._ul.data-v-1d6795e6 {
+	padding: 0rpx;
+}
+._li.data-v-1d6795e6 {
+
+	list-style: none;
+}
+.container.data-v-1d6795e6{
+	padding-top: 180rpx;
+	background-color: #f4f4f4;
+}
+.main.data-v-1d6795e6{
+	width: 95%;
+	margin: auto;
+}
+.ap-item.data-v-1d6795e6{
+	margin-bottom: 10px;
+	padding: 20rpx 20rpx;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.top.data-v-1d6795e6{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.t-left.data-v-1d6795e6{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.title.data-v-1d6795e6{
+	font-size: 32rpx;
+}
+.time.data-v-1d6795e6{
+	margin-left: 5px;
+	font-size: 28rpx;
+	color: #888888;
+}
+.t-right.data-v-1d6795e6{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.center.data-v-1d6795e6{
+	position: relative;
+	margin-top: 5px;
+}
+.content.data-v-1d6795e6{
+	clear: both;
+	/* 清除左右浮动 */
+	/* word-break: break-word; */
+	
+	text-overflow: -o-ellipsis-lastline;
+	/* 溢出内容隐藏 */
+	overflow: hidden;
+	/* 文本溢出部分用省略号表示		 */
+	text-overflow: ellipsis;
+	/* 特别显示模式	 */
+	display: -webkit-box;
+	/* 行数		 */
+	-webkit-box-orient: vertical;
+	
+	/* CSS 3 (and 2.1 as well, actually) */
+	word-break: break-all;
+	
+	font-size: 28rpx;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+}
+.img-list.data-v-1d6795e6{
+	
+	display: flex;
+}
+.img-list image.data-v-1d6795e6{
+	width: 220rpx;
+	height: 220rpx;
+}
+.count.data-v-1d6795e6{
+	background-color: #7a7a7a;
+	position: absolute;
+	text-align: center;
+	width: 30rpx;
+	height: 45rpx;
+	right: 20rpx;
+	bottom: 10rpx;
+	opacity: 0.5;
+	z-index: 999;
+	color: #fff;
+}
+.fotter.data-v-1d6795e6{
+	padding-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 5px;
+	border-top: 1px solid #bfbfbf;
+}
+.fotter .type.data-v-1d6795e6{
+	font-size: 26rpx;
+}
+.btn.data-v-1d6795e6{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.confirm_btn.data-v-1d6795e6{
+	width: 120rpx;
+	height: 60rpx;
+	font-size: 26rpx;
+	text-align: center;
+	line-height: 60rpx;
+	background-color: #f56c6c;
+	color: #fff ;
+}
+.cancel_btn.data-v-1d6795e6{
+	margin-right: 20rpx;
+	width: 120rpx;
+	height: 60rpx;
+	font-size: 26rpx;
+	text-align: center;
+	line-height: 60rpx;
+	border: 1px solid #f56c6c;
+	background-color: #fff;
+	color: #f56c6c ;
+}
+.money.data-v-1d6795e6{
+	font-size: 34rpx;
+	font-weight: bold;
+}
+.money.data-v-1d6795e6::before{
+	content: "|";
+	margin: 0 2px;
+	font-size: 18px;
+	color: #f56c6c;
+}
+

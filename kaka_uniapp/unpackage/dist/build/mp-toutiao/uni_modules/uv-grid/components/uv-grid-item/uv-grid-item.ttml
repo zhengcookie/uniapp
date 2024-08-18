@@ -1,0 +1,1 @@
+<view class="{{((('uv-grid-item')+' '+'data-v-1fffe863')+' '+classes)}}" style="{{$root.s0}}" hover-class="uv-grid-item--hover-class" hover-stay-time="{{200}}" data-event-opts="{{[['tap',[['clickHandler',['$event']]]]]}}" bindtap="__e"><slot></slot></view>

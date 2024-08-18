@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-navbar": "/uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-tabs": "/uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "uv-waterfall": "/uni_modules/uv-waterfall/components/uv-waterfall/uv-waterfall",
+    "uv-icon": "/uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-avatar": "/uni_modules/uv-avatar/components/uv-avatar/uv-avatar",
+    "follow-trend": "/pages/follow-trends/follow-trends"
+  }
+}

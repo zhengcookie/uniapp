@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-navbar": "/uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-avatar": "/uni_modules/uv-avatar/components/uv-avatar/uv-avatar",
+    "uv-button": "/uni_modules/uv-button/components/uv-button/uv-button",
+    "uv-icon": "/uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-grid": "/uni_modules/uv-grid/components/uv-grid/uv-grid",
+    "uv-grid-item": "/uni_modules/uv-grid/components/uv-grid-item/uv-grid-item",
+    "uv-tags": "/uni_modules/uv-tags/components/uv-tags/uv-tags"
+  }
+}

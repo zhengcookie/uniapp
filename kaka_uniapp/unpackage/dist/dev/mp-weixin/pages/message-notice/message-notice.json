@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-navbar": "/uni_modules/uv-navbar/components/uv-navbar/uv-navbar"
+  }
+}

@@ -1,0 +1,154 @@
+ul {
+	padding: 0rpx;
+}
+
+li {
+
+	list-style: none;
+}
+
+.follow-container{
+	width: 95%;
+	margin: auto;
+}
+
+.page{
+	height: 90vh;
+}
+
+.user_item{
+	margin-bottom: 5px;
+	padding: 6px;
+	border: 1px solid #f4f4f4;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.mtl_avatar{
+	margin-right:5px ;
+}
+
+.main_top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main_top_left{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+
+
+
+.mtl_user_top{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.mtl_user_top  .name{
+	font-size: 26rpx;
+}
+
+.mtl_user_top .time{
+	font-size: 24rpx;
+	color: #646464;
+}
+
+.mtl_user_bottom{
+	color: #646464;
+	font-size: 24rpx;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.mtl_user_bottom_rz{
+	background-color: #00aaff;
+	color: #fff;
+	text-align: center;
+	width: 90rpx;
+	line-height: 36rpx;
+	height: 36rpx;
+	border-radius: 4px;
+}
+
+.main_top_right{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.address{
+	color: #646464;
+	font-size: 28rpx;
+}
+
+
+.word{
+	clear: both;
+	/* 清除左右浮动 */
+	/* word-break: break-word; */
+
+	text-overflow: -o-ellipsis-lastline;
+	/* 溢出内容隐藏 */
+	overflow: hidden;
+	/* 文本溢出部分用省略号表示		 */
+	text-overflow: ellipsis;
+	/* 特别显示模式	 */
+	display: -webkit-box;
+	/* 行数		 */
+	-webkit-box-orient: vertical;
+
+	/* CSS 3 (and 2.1 as well, actually) */
+	word-break: break-all
+}
+
+.mc_title{
+	font-size: 30rpx;
+	-webkit-line-clamp: 1;
+	line-clamp: 1;
+}
+
+.mc_content{
+	font-size: 28rpx;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+}
+
+
+
+
+.mc_imgs image{
+	margin-right: 3px;
+	width: 220rpx;
+	height: 220rpx;
+	object-fit: cover;
+}
+
+
+.main_bottom{
+	margin-top: 5px;
+	border-top: 1px solid #f4f4f4;
+}
+
+.main_bottom{
+	padding-top: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mb_w{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.main_bottom .count{
+	font-size: 28rpx;
+	color: #848484;
+}

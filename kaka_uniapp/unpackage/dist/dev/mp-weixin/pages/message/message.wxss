@@ -1,0 +1,78 @@
+.container.data-v-a91f51d4{
+	padding-top: 160rpx;
+	background-color: #f4f4f4;
+}
+.main.data-v-a91f51d4{
+	width: 95%;
+	margin: auto;
+	height: 90vh;
+}
+.msg_item.data-v-a91f51d4{
+	height: 100rpx;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #f4f4f4;
+}
+.msg_item_left.data-v-a91f51d4{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-left: 30rpx;
+}
+.msg_item_top.data-v-a91f51d4{
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+.msg_item_top .info.data-v-a91f51d4{
+	padding: 30rpx;
+	margin-left: 25rpx;
+}
+.title.data-v-a91f51d4{
+	color:#fff;
+}
+.system_msg.data-v-a91f51d4{
+	background-color: #fff;
+	margin-bottom: 10px;
+	border-radius: 8px;
+}
+.photo_msg.data-v-a91f51d4{
+	background-color: #fff;
+	margin-bottom: 10px;
+	border-radius: 8px;
+}
+.user_msg.data-v-a91f51d4{
+	background-color: #fff;
+	border-radius: 8px;
+}
+.avatar.data-v-a91f51d4{
+	margin-right: 5px;
+}
+.content.data-v-a91f51d4{
+	font-size: 28rpx;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	clear: both;
+	/* 清除左右浮动
+	word-break: break-word;
+	
+	text-overflow: -o-ellipsis-lastline;
+	/* 溢出内容隐藏 */
+	overflow: hidden;
+	/* 文本溢出部分用省略号表示		 */
+	text-overflow: ellipsis;
+	/* 特别显示模式	 */
+	display: -webkit-box;
+	/* 行数		 */
+	-webkit-box-orient: vertical;
+	
+	/* CSS 3 (and 2.1 as well, actually) */
+	word-break: break-all
+}
+.time.data-v-a91f51d4{
+	color: #848484;
+	font-size: 24rpx;
+}
+

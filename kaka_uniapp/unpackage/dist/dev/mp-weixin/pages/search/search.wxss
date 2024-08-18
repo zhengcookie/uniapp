@@ -1,0 +1,30 @@
+.container.data-v-4cedc0c6{
+	margin: auto;
+	width: 95%;
+	padding-top: 160rpx;
+}
+.top.data-v-4cedc0c6{
+	width: 600rpx;
+}
+.search.data-v-4cedc0c6{
+	margin-left: 10px;
+}
+.center.data-v-4cedc0c6{
+	margin-top: 20px;
+}
+.sr-title.data-v-4cedc0c6{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 32rpx;
+}
+.records.data-v-4cedc0c6{
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.tag-item.data-v-4cedc0c6{
+	margin-top: 3px;
+	margin-right: 5px;
+}
+

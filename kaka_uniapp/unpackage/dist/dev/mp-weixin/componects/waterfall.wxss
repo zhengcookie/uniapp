@@ -1,0 +1,88 @@
+
+image.data-v-7b250948{
+	width: 100%;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.waterfall-item.data-v-7b250948{
+	background-color: #fff;
+	border-radius: 8px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #f4f4f4;
+}
+.waterfall-item__image.data-v-7b250948{
+	position: relative;
+}
+.img-count.data-v-7b250948{
+	background-color: #7a7a7a;
+	position: absolute;
+	text-align: center;
+	width: 30rpx;
+	height: 45rpx;
+	right: 10rpx;
+	bottom: 14rpx;
+	opacity: 0.5;
+	color: #fff;
+}
+.videoTag.data-v-7b250948{
+	position: absolute;
+	right: 10rpx;
+	top: 14rpx;
+	opacity: 0.5;
+}
+.card.data-v-7b250948{
+	margin: auto;
+	width: 95%;
+}
+
+/* 显示省略号 */
+.card_title.data-v-7b250948{
+	width: 300rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 28rpx;
+}
+.card_main.data-v-7b250948{
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card_main_left.data-v-7b250948{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card_main_left_main.data-v-7b250948{
+}
+.card_main_left_main_top.data-v-7b250948{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.card_main_left_main_top .name.data-v-7b250948{
+	font-size: 26rpx;
+}
+.card_main_left_main_bottom.data-v-7b250948{
+	color: #646464;
+	font-size: 24rpx;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.card_main_left_main_bottom .split.data-v-7b250948{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.card_main_right.data-v-7b250948{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.card_main_right .agree_nums.data-v-7b250948{
+	font-size: 24rpx;
+	color: #bfbfbf;
+}
+

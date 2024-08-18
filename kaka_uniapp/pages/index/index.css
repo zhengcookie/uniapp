@@ -1,0 +1,182 @@
+ul {
+	padding-left: 0rpx;
+}
+
+li {
+	list-style: none;
+}
+
+.container{
+	padding-top: 100rpx;
+	background-color: #f4f4f4;
+}
+
+
+.index_center{
+      
+   position: relative;
+   padding-top: 20px;
+}
+
+.waterfall{
+	width: 95%;
+	margin: auto;
+}
+
+.nav {
+	background-color: #fff;
+	position: relative;
+	overflow: auto;
+}
+
+.nav ul {
+	height: 68rpx;
+	white-space: nowrap;
+}
+
+.nav::-webkit-scrollbar {
+	display: none;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.nav_item{
+	font-size: 28rpx;
+	color: #646464;
+	margin-right: 3px;
+	padding: 2px;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 60rpx;
+	width: 80rpx;
+	height: 60rpx;
+}
+
+.nav_item:hover{
+	color: #ff0000;
+}
+
+.right_icon{
+	
+	position: absolute;
+	top: 10rpx;
+	right: 0px;
+}
+
+
+.index_top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #f4f4f4 ;
+}
+
+
+
+.page{
+	height: 90vh;
+}
+
+image{
+	width: 100%;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.waterfall-item{
+	border-radius: 8px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #f4f4f4;
+	background-color: #fff;
+}
+
+.waterfall-item__image{
+	position: relative;
+}
+
+.img-count{
+	background-color: #7a7a7a;
+	position: absolute;
+	text-align: center;
+	width: 30rpx;
+	height: 45rpx;
+	right: 10rpx;
+	bottom: 14rpx;
+	opacity: 0.5;
+	color: #fff;
+}
+
+.videoTag{
+	position: absolute;
+	right: 10rpx;
+	top: 14rpx;
+	opacity: 0.5;
+}
+
+.card{
+	margin: auto;
+	width: 95%;
+}
+/* 显示省略号 */
+.card_title{
+	width: 300rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 28rpx;
+}
+
+.card_main{
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card_main_left{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card_main_left_main{
+	
+}
+
+.card_main_left_main_top{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.card_main_left_main_top .name{
+	font-size: 26rpx;
+}
+
+.card_main_left_main_bottom{
+	color: #646464;
+	font-size: 24rpx;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.card_main_left_main_bottom .split{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.card_main_right{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.card_main_right .agree_nums{
+	font-size: 24rpx;
+	color: #bfbfbf;
+}

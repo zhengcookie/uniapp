@@ -1,0 +1,158 @@
+ul {
+	padding: 0rpx;
+}
+
+li {
+
+	list-style: none;
+}
+
+.container{
+	padding-top: 180rpx;
+	background-color: #f4f4f4;
+}
+
+.main{
+	width: 95%;
+	margin: auto;
+}
+
+.ap-item{
+	margin-bottom: 10px;
+	padding: 20rpx 20rpx;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.t-left{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+
+.title{
+	font-size: 32rpx;
+}
+
+.time{
+	margin-left: 5px;
+	font-size: 28rpx;
+	color: #888888;
+}
+
+.t-right{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.center{
+	position: relative;
+	margin-top: 5px;
+}
+
+.content{
+	clear: both;
+	/* 清除左右浮动 */
+	/* word-break: break-word; */
+	
+	text-overflow: -o-ellipsis-lastline;
+	/* 溢出内容隐藏 */
+	overflow: hidden;
+	/* 文本溢出部分用省略号表示		 */
+	text-overflow: ellipsis;
+	/* 特别显示模式	 */
+	display: -webkit-box;
+	/* 行数		 */
+	-webkit-box-orient: vertical;
+	
+	/* CSS 3 (and 2.1 as well, actually) */
+	word-break: break-all;
+	
+	font-size: 28rpx;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+}
+
+.img-list{
+	
+	display: flex;
+}
+
+.img-list image{
+	width: 220rpx;
+	height: 220rpx;
+}
+
+.count{
+	background-color: #7a7a7a;
+	position: absolute;
+	text-align: center;
+	width: 30rpx;
+	height: 45rpx;
+	right: 20rpx;
+	bottom: 10rpx;
+	opacity: 0.5;
+	z-index: 999;
+	color: #fff;
+}
+
+.fotter{
+	padding-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 5px;
+	border-top: 1px solid #bfbfbf;
+}
+
+.fotter .type{
+	font-size: 26rpx;
+}
+
+.btn{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.confirm_btn{
+	width: 120rpx;
+	height: 60rpx;
+	font-size: 26rpx;
+	text-align: center;
+	line-height: 60rpx;
+	background-color: #f56c6c;
+	color: #fff ;
+}
+
+.cancel_btn{
+	margin-right: 20rpx;
+	width: 120rpx;
+	height: 60rpx;
+	font-size: 26rpx;
+	text-align: center;
+	line-height: 60rpx;
+	border: 1px solid #f56c6c;
+	background-color: #fff;
+	color: #f56c6c ;
+}
+
+.money{
+	font-size: 34rpx;
+	font-weight: bold;
+}
+
+.money::before{
+	content: "|";
+	margin: 0 2px;
+	font-size: 18px;
+	color: #f56c6c;
+}

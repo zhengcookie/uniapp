@@ -1,0 +1,14 @@
+.container{
+	padding-top: 180rpx;
+	background-color: #f4f4f4;
+}
+
+.main{
+	width: 95%;
+	margin: auto;
+}
+
+.page{
+	height: 90vh;
+}
+

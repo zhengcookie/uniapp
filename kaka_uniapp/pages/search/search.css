@@ -1,0 +1,37 @@
+.container{
+	margin: auto;
+	width: 95%;
+	padding-top: 160rpx;
+}
+
+
+.top{
+	width: 600rpx;
+}
+
+.search{
+	margin-left: 10px;
+}
+
+.center{
+	margin-top: 20px;
+}
+
+.sr-title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 32rpx;
+	
+}
+
+.records{
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tag-item{
+	margin-top: 3px;
+	margin-right: 5px;
+}

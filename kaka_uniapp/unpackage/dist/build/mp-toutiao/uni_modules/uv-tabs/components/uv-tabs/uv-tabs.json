@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uv-badge": "/uni_modules/uv-badge/components/uv-badge/uv-badge"
+  },
+  "component": true
+}

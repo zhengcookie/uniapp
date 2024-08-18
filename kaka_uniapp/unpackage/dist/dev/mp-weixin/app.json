@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/category/category",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/follow-trends/follow-trends",
+    "pages/screen/screen",
+    "pages/userInfo/userInfo",
+    "pages/main/main",
+    "pages/search/search",
+    "pages/model-works/model-works",
+    "pages/friends/friends",
+    "pages/edit-user/edit-user",
+    "pages/reply-comment/reply-comment",
+    "pages/login/login",
+    "pages/regist/regist",
+    "pages/view-history/view-history",
+    "pages/albums/albums",
+    "pages/appointment-photos/appointment-photos",
+    "pages/message-notice/message-notice",
+    "pages/push/push"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#5555ff",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/images/tabbar/home.png",
+        "selectedIconPath": "/static/images/tabbar/home_activate.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/static/images/tabbar/copy.png",
+        "selectedIconPath": "/static/images/tabbar/copy_activate.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "会话",
+        "iconPath": "/static/images/tabbar/message.png",
+        "selectedIconPath": "/static/images/tabbar/message_activate.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/static/images/tabbar/people.png",
+        "selectedIconPath": "/static/images/tabbar/people_activate.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

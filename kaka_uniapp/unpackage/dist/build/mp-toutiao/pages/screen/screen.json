@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-icon": "/uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "uv-tags": "/uni_modules/uv-tags/components/uv-tags/uv-tags",
+    "uv-button": "/uni_modules/uv-button/components/uv-button/uv-button"
+  }
+}

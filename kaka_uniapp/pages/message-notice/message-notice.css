@@ -1,0 +1,64 @@
+ul {
+	padding: 0rpx;
+}
+
+li {
+
+	list-style: none;
+}
+
+.container{
+	padding-top: 180rpx;
+	background-color: #f4f4f4;
+}
+
+.notice-box{
+	padding: 5px 10px;
+}
+
+.time{
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	color: #888888;
+}
+
+.center{
+	padding: 20px 20px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+
+.title{
+	font-size: 30rpx;
+	font-weight: bold;
+}
+
+.content{
+	font-size: 28rpx;
+}
+
+.content{
+	margin-top: 5px;
+	clear: both;
+	/* 清除左右浮动 */
+	/* word-break: break-word; */
+	
+	text-overflow: -o-ellipsis-lastline;
+	/* 溢出内容隐藏 */
+	overflow: hidden;
+	/* 文本溢出部分用省略号表示		 */
+	text-overflow: ellipsis;
+	/* 特别显示模式	 */
+	display: -webkit-box;
+	/* 行数		 */
+	-webkit-box-orient: vertical;
+	
+	/* CSS 3 (and 2.1 as well, actually) */
+	word-break: break-all;
+	
+	font-size: 28rpx;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+}

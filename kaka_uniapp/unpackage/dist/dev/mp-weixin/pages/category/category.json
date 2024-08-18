@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-navbar": "/uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-search": "/uni_modules/uv-search/components/uv-search/uv-search",
+    "uv-tags": "/uni_modules/uv-tags/components/uv-tags/uv-tags",
+    "uv-popup": "/uni_modules/uv-popup/components/uv-popup/uv-popup",
+    "uv-avatar": "/uni_modules/uv-avatar/components/uv-avatar/uv-avatar",
+    "uv-icon": "/uni_modules/uv-icon/components/uv-icon/uv-icon",
+    "screen": "/pages/screen/screen"
+  }
+}
